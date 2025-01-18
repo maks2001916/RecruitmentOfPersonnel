@@ -26,18 +26,22 @@
                 android:layout_margin="5dp">
 
                 <TextView
+                    android:id="@+id/nameTV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/name"/>
                 <TextView
+                    android:id="@+id/surNameTV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/surName"/>
                 <TextView
+                    android:id="@+id/ageTV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/age"/>
                 <TextView
+                    android:id="@+id/postTV"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/post"/>

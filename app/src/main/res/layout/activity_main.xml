@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <android.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarMain"
         android:title="@string/app_name_ru"
         android:layout_width="match_parent"
@@ -44,7 +44,7 @@
         android:layout_marginEnd="10dp"/>
 
     <AutoCompleteTextView
-        android:id="@+id/mainACTV"
+        android:id="@+id/postACTV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/post"
@@ -53,12 +53,14 @@
         android:layout_marginEnd="10dp"/>
 
     <Button
+        android:id="@+id/saveBTN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/save"
         android:layout_margin="10dp"/>
 
     <ListView
+        android:id="@+id/listLV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/list_item"/>
