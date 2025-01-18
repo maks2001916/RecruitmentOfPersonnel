@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity(), Removable {
         saveBTN = findViewById(R.id.saveBTN)
         listLV = findViewById(R.id.listLV)
 
+        toolbarTB.setTitle(getString(R.string.app_name_ru))
         setSupportActionBar(toolbarTB)
 
         var adapter = ArrayAdapter(
